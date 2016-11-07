@@ -1,5 +1,7 @@
 # file-trie [![Build Status](https://secure.travis-ci.org/johnotander/file-trie.svg?branch=master)](https://travis-ci.org/johnotander/file-trie) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
+__Work in progress__
+
 Turn a file glob into a trie structure.
 
 ## Installation
@@ -22,8 +24,8 @@ fileTrie(['my-dir/**/*', '!my-dir/node_modules/**/*'])
 
 ## Related
 
-- [`wayfarer`](https://github.com/yoshuawuyts/wayfarer)
 - [`globby`](https://github.com/sindresorhus/globby)
+- [`wayfarer`](https://github.com/yoshuawuyts/wayfarer)
 - [`is-present`](https://github.com/johnotander/is-present)
 
 ## License
