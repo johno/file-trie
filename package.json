@@ -2,7 +2,7 @@
   "name": "file-trie",
   "description": "Turn a file glob into a trie structure",
   "author": "John Otander",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "files": [
     "index.js"
