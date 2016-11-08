@@ -14,7 +14,7 @@ const createTrie = files => {
   const firstFile = files.shift()
   const node = fileTrie.create(firstFile)
 
-  files.forEach(f => fileTrie.mount(f, fileTrie))
+  files.forEach(f => fileTrie.mount(`${f}/`, fileTrie))
 
   return fileTrie
 }
